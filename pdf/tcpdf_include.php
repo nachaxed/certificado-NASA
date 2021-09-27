@@ -24,11 +24,11 @@
  */
 
 // always load alternative config file for examples
-require_once('/home/www/certificado-nasa.atwebpages.com/extensiones/TCPDF/config/tcpdf_config.php'); //modificar ruta
+require_once('../config/tcpdf_config.php'); //modificar ruta
 
 // Include the main TCPDF library (search the library on the following directories).
 $tcpdf_include_dirs = array(
-	realpath('../../certificado-nasa.atwebpages.com/extensiones/TCPDF/tcpdf.php'), //modificar ruta
+	realpath('../tcpdf.php'), //modificar ruta
 	'/usr/share/php/tcpdf/tcpdf.php',
 	'/usr/share/tcpdf/tcpdf.php',
 	'/usr/share/php-tcpdf/tcpdf.php',
